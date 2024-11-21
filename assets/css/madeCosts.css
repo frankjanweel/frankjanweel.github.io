@@ -1,0 +1,151 @@
+button {
+    margin-bottom: 16px;
+}
+
+.error {
+    color: #ff0000;
+}
+
+main {
+    margin: 0 auto;
+    margin-top: 250px;
+    color:white;
+    padding: 20px;
+    text-align: center;
+    min-height: 200px;
+    border: 4.5px solid black;
+    background: linear-gradient(
+        to right,
+        rgba(0,0,255, 0.9),
+        rgba(255, 255, 0, 0.9)
+    );
+}
+
+main button{
+    margin: 8px;
+    border-radius: 20px;
+    width: 250px;
+    height: 50px;
+    padding: 10px;
+    font-size: 18px;
+    text-align: center;
+}
+
+main input, select {
+    margin: auto;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    font-size: 18px;
+    padding: 10px;
+    width: 250px;
+}
+
+div input, select {
+    margin-bottom: 20px;
+    border-radius: 20px;
+    font-size: 18px;
+    padding: 10px;
+    width: 250px;
+}
+
+.deleteButton {
+    background-color: transparent;
+    border: none;
+    width: 32px;
+    vertical-align: bottom;
+    margin-bottom: 19px;
+}
+
+.buttonBottom{
+    margin-top: 30px;
+}
+
+main div {
+    font-size: 18px;
+}
+
+div input {
+    margin-right: 6px;
+}
+
+.dynamicDropdown {
+    margin-right: 8px;
+}
+
+.dropdownContainer {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .participantDropdown button {
+    padding: 10px;
+    cursor: pointer;
+  }
+  
+  .participantDropdown button:focus {
+    outline: none;
+  }
+  
+  .dropdownContent {
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 160px;
+    border: 1px solid #ddd;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    color: black;
+  }
+  
+  .dropdownContent label {
+    display: inline-flex;
+    align-items: center;
+    padding: 8px 12px;
+    cursor: pointer;
+    text-align: left;
+  }
+  
+  .participantDropdown div {
+    text-align: left;
+  }
+  
+  .dropdownContent input[type="checkbox"] {
+    margin-right: 8px;
+    width: 15px;
+    margin-bottom: 3px;
+  }
+  
+  .dropdownContent label:hover {
+    background-color: #f1f1f1;
+  }
+
+.checkbox-dropdown {
+    display: inline-flex;
+    position: relative;
+}
+
+.checkbox-container {
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 160px;
+    border: 1px solid #ddd;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    color: black;
+    text-align: left;
+    top: 100%;
+}
+
+.checkbox-container div label input {
+    width: 15px;
+    margin-bottom: 3px;
+}
+
+.checkbox-container div label {
+    display: inline-flex;
+    align-items: center;
+    padding: 8px 12px;
+    cursor: pointer;
+    text-align: left;
+}

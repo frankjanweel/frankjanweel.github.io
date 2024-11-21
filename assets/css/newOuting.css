@@ -1,0 +1,46 @@
+button {
+    margin-bottom: 16px;
+}
+
+.error {
+    color: #ff0000;
+}
+
+main {
+    margin: 0 auto;
+    margin-top: 250px;
+    color:white;
+    padding: 20px;
+    text-align: center;
+    min-height: 200px;
+    border-top: 4.5px solid black;
+    border-bottom: 4.5px solid black;
+    background: linear-gradient(
+        to right,
+        rgba(0,0,255, 0.9),
+        rgba(255, 255, 0, 0.9)
+    );
+}
+
+main button{
+    margin: auto;
+    border-radius: 20px;
+    width: 250px;
+    height: 50px;
+    padding: 10px;
+    font-size: 18px;
+    text-align: center;
+}
+
+main .doorgaan{
+    margin: auto;
+    margin-top: 8px;
+}
+
+main input {
+    margin: auto;
+    border-radius: 20px;
+    font-size: 18px;
+    padding: 10px;
+}
+
