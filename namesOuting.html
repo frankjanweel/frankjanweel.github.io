@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+        <title>Dokkie</title>
+
+        <link rel="stylesheet" href="/assets/css/index.css" />
+        <link rel="stylesheet" href="/assets/css/namesOuting.css"/>
+    </head>
+    <body>
+        </div>
+        <nav>
+            <ul>
+                <li>
+                    <div class="dokkie">
+                        <p>Dokkie</p>
+                </li>
+                <li>
+                    <a href="index.html">Home</a>
+                </li>
+                <li>
+                    <a href="newOuting.html" class="active">Nieuw uitje</a>
+                </li>
+                <li>
+                    <a href="existingOuting.html">Bestaand uitje</a>
+            </ul>
+        </nav>
+        <main>
+            <h1>Vul hier de namen in van de deelnemers aan het uitje.</h1>
+            <h2 id="currentOuting"></h2>
+
+            <div id="inputContainer"></div>
+            <button id="addName">Nieuwe naam</button>
+            <button id="save">Opslaan</button>
+            <p id="result"></p>
+        </main>
+        <script src="/src/namesOuting.ts" type="module"></script>
+    </body>
+</html>
